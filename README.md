@@ -23,7 +23,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [motan](https://github.com/weibocom/motan) 
 * [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
 
-### Open Source Oragnization
+### Open Source Oragnization Member
 * [OpenTracing](http://opentracing.io/)
 * [sky-walking eco-system](https://github.com/skywalking-developer)
 * [Hprose](https://github.com/hprose)
