@@ -14,6 +14,17 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 * 2015&nbsp;&nbsp; Create [sky-walking](https://github.com/wu-sheng/sky-walking) open source tracer.
 * 2013&nbsp;&nbsp; Take part of GitHub.com, as a learner.
 
+### Contributed Projects
+* [sky-walking](https://github.com/wu-sheng/sky-walking) 
+* [opentracing/opentracing.io](https://github.com/opentracing/opentracing.io)
+* [motan](https://github.com/weibocom/motan) 
+* [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
+
+### Open Source Oragnization
+* [OpenTracing]  http://opentracing.io/
+* [sky-walking eco-system] https://github.com/skywalking-developer
+* [Hprose] https://github.com/hprose
+
 ### Career
 * 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com)
 * 2012-2016 Senior Software Architect, [AsiaInfo](Software Architect)
