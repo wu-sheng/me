@@ -2,7 +2,7 @@
 
 I am a Java **APM Architect** in [OneAPM](http://www.oneapm.com).
 
-My work revolves around distributed systems, distributed tracer, APM, and runtime code generation and manipulation library. My primary goal is to build a apm/tracer tool, with _High Efficient_, _Professional_, _fit for docker and microservice env_. But also **easy** to use. In particular, interested in how to build and diagnose large scale systems with apm tools.
+My work revolves around distributed systems, distributed tracer, APM, and runtime code generation and manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _fit for docker and microservice env_. But also **easy** to use. In particular, interested in how to build and diagnose large scale systems with apm tools.
 
 ## News About Me
 
@@ -14,9 +14,10 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 * 2015&nbsp;&nbsp; Create [sky-walking](https://github.com/wu-sheng/sky-walking) open source tracer.
 * 2013&nbsp;&nbsp; Take part of GitHub.com, as a learner.
 
-### Contributed Projects
+### Contributed GitHub Projects
 * [sky-walking](https://github.com/wu-sheng/sky-walking) 
 * [opentracing/opentracing.io](https://github.com/opentracing/opentracing.io)
+* [wu-sheng/opentracing.io-translation](https://github.com/wu-sheng/opentracing.io-translation)
 * [motan](https://github.com/weibocom/motan) 
 * [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
 
