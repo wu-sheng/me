@@ -14,7 +14,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 * 2015&nbsp;&nbsp; Create [sky-walking](https://github.com/wu-sheng/sky-walking) open source tracer.
 * 2013&nbsp;&nbsp; Take part of GitHub.com, as a learner.
 
-_GitHub Profile Page: (https://github.com/wu-sheng)_
+_GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Contributed GitHub Projects
 * [sky-walking](https://github.com/wu-sheng/sky-walking) 
