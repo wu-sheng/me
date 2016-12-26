@@ -23,3 +23,6 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Education
 * 2007-2009 Master Degree, Software Enginnering, Jilin University, China.
 * 2003-2007 Bachelor Degree, Software Enginnering, Jilin University, China.
+
+## Contact Me
+* E-Mail: wu.sheng@foxmail.com
