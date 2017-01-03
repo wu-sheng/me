@@ -29,10 +29,10 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [Hprose](https://github.com/hprose)
 
 ### Career
-* 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com)
-* 2012-2016 Senior Software Architect, [AsiaInfo](Software Architect)
-* 2009-2012 Software Architect, [Cattsoft](http://www.cattsoft.com)
-* 2007-2009 Intern Assistant Architect, [An Hua Agriculture Insurance](http://www.ahic.com.cn)
+* 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com), China.
+* 2012-2016 Senior Software Architect, [AsiaInfo](Software Architect), China.
+* 2009-2012 Software Architect, [Cattsoft](http://www.cattsoft.com), China.
+* 2007-2009 Intern Assistant Architect, [An Hua Agriculture Insurance](http://www.ahic.com.cn), China.
 
 ### Education
 * 2007-2009 Master Degree, Software Enginnering, Jilin University, China.
