@@ -18,13 +18,13 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Contributed GitHub Projects
 * [sky-walking](https://github.com/wu-sheng/sky-walking) 
-* [opentracing/opentracing.io](https://github.com/opentracing/opentracing.io)
+* [OpenTracing](http://opentracing.io/)
 * [wu-sheng/opentracing.io-translation](https://github.com/wu-sheng/opentracing.io-translation)
 * [motan](https://github.com/weibocom/motan) 
 * [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
 
 ### Open Source Oragnization Member
-* [OpenTracing](http://opentracing.io/)
+* [opentracing](https://github.com/opentracing)
 * [sky-walking eco-system](https://github.com/skywalking-developer)
 * [Hprose](https://github.com/hprose)
 
