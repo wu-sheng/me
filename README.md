@@ -22,6 +22,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [opentracing-chm-translation](https://github.com/wu-sheng/opentracing.io-translation)
 * [motan](https://github.com/weibocom/motan) 
 * [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
+* [apache/incubator-rocketmq](https://github.com/apache/incubator-rocketmq)
 
 ### Open Source Oragnization Member
 * [opentracing](https://github.com/opentracing)
