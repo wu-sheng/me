@@ -7,6 +7,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ## News About Me
 
 ### Open Source Experience
+* 2017&nbsp;&nbsp; Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version support OpenTracing.
 * 2017&nbsp;&nbsp; Release OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
 * 2016&nbsp;&nbsp; Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.0-2016.
 * 2016&nbsp;&nbsp; Popularize the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
