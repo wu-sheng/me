@@ -31,7 +31,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Open Source Oragnization Member
 * [opentracing](https://github.com/opentracing)
-* [sky-walking eco-system](https://github.com/skywalking-developer)
+* [sky-walking](https://github.com/sky-walking)
 * [Hprose](https://github.com/hprose)
 
 ### Career
