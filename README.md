@@ -7,8 +7,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ## News About Me
 
 ### Open Source Experience
-|Year|Experience|
-|:--:|:--|
+
 - 2017
   - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
   - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.
