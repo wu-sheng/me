@@ -9,13 +9,16 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 |Year|Experience|
 |:--:|:--|
-|2017|Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017. |
-||Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.|
-||Release OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)|
-|2016|Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.0-2016.|
-||Popularize the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).|
-||Join [OpenTracing](http://opentracing.io) organization.|
-|2015|Release [sky-walking](https://github.com/wu-sheng/sky-walking) 1.0.|
+- 2017
+  - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
+  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.
+  - Release OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
+- 2016
+  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.0-2016.
+  - Popularize the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
+  - Join [OpenTracing](http://opentracing.io) organization.
+- 2015
+  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 1.0.
 
 _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
