@@ -9,9 +9,8 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2017
-  - Speak at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
-  - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
-- 2017
+  - Speak at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
+  - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
   - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.
   - Release OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
 - 2016
