@@ -1,6 +1,6 @@
 ## Welcome to [wusheng 吴晟](https://github.com/wu-sheng) GitHub Pages
 
-I am a Java **APM Architect** in [OneAPM](http://www.oneapm.com).
+I am a **Principle Engineer** in 2012 Lab, [Huawei Technologies Co., Ltd.](http://www.huawei.com).
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
@@ -9,6 +9,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2017
+  - Join Huawei.
   - Speak at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
   - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 3.0-2017, upgrade to an APM from a tracer.
   - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
