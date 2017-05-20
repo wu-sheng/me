@@ -1,6 +1,6 @@
 ## Welcome to [wusheng 吴晟](https://github.com/wu-sheng) GitHub Pages
 
-I am a **Principle Engineer** in 2012 Lab, [Huawei Technologies Co., Ltd.](http://www.huawei.com).
+I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com).
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
@@ -40,8 +40,9 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [Hprose](https://github.com/hprose)
 
 ### Career
+* 2017-     2012Labs, Huawei Technologies Co., Ltd, China
 * 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com), China.
-* 2012-2016 Senior Software Architect, [AsiaInfo](Software Architect), China.
+* 2012-2016 Senior Software Architect, [AsiaInfo](http://www.asiainfo.com), China.
 * 2009-2012 Software Architect, [Cattsoft](http://www.cattsoft.com), China.
 * 2007-2009 Intern Assistant Architect, [An Hua Agriculture Insurance](http://www.ahic.com.cn), China.
 
