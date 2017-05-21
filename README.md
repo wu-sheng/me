@@ -40,7 +40,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [Hprose](https://github.com/hprose)
 
 ### Career
-* 2017-     2012Labs, Huawei Technologies Co., Ltd, China
+* 2017-Now  2012 Labs, Huawei Technologies Co., Ltd, China
 * 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com), China.
 * 2012-2016 Senior Software Architect, [AsiaInfo](http://www.asiainfo.com), China.
 * 2009-2012 Software Architect, [Cattsoft](http://www.cattsoft.com), China.
