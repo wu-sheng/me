@@ -113,6 +113,16 @@ C/C++代码可以讲一个或者多个对象文件进行链接编译成一个可
 ## Shared Between Threads
 
 ### Heap
+堆用作为class实例和数据在运行时分配存储空间。数组和对象不能被存储在栈中，因为帧空间在创建时分配，并不可改变。帧中只存储对象或者数组的指针引用。不同于原始类型，和本地变量数组的引用，对象被存储在堆中，所以当方法退出时，这些对象不会被移除。这些对象只会通过垃圾回收来移除。
+
+想了解垃圾回收相关的内容，请查看以下的三个章节：
+- Young Generation，年轻代
+  - 在Eden 和 Survivor中来回切换
+- Old Generation (Tenured Generation)，老年代或持久带
+- Permanent Generation
+
+### Memory Management
+
 
 ___
 [返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
