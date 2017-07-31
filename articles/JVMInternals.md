@@ -1,4 +1,4 @@
-# JVMInternals
+# 探秘JVM内部结构
 
 这篇文章将解释JVM的内部架构。根据JAVA7 JVM规范，下图展现了一个典型JVM的的内部关键组件。
 
