@@ -1,5 +1,7 @@
 # 探秘JVM内部结构
 
+[吴晟](https://github.com/wu-sheng)
+
 这篇文章将解释JVM的内部架构。根据JAVA7 JVM规范，下图展现了一个典型JVM的的内部关键组件。
 
 <img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/JVM_Internal_Architecture.png"/>
@@ -122,7 +124,59 @@ C/C++代码可以讲一个或者多个对象文件进行链接编译成一个可
 - Permanent Generation
 
 ### Memory Management
+对象和数据不会被隐形的回收，只有垃圾回收机制可以释放他们的内存。
 
+典型的运行流程如下：
+1. 新的对象和数组使用年轻代内存空间进行创建
+1. 年轻代GC（Minor GC/Young GC）在年轻代内进行垃圾回收。不满足回收条件（依然活跃）的对象，将被移动从eden区移动到survivor区。
+1. 老年代GC（Major GC/Full GC）一般会造成应用的线程暂停，将在年轻代中依然活跃的对象，移动到老年代Old Generation (Tenured Generation)。
+1. Permanent Generation区的GC会随着老年代GC一起运行。其中任意一个区域在快用完时，都会触发GC操作。
+
+### Non-Heap Memory
+属于JVM内部的对象，将在非堆内存区创建。
+
+非堆内存包括：
+- **Permanent Generation**
+  - the method area，方法区
+  - interned strings，字符串常量
+- **Code Cache**，代码缓存。通过JIT编译为本地代码的方法所存储的空间。
+
+### Just In Time (JIT) Compilation
+Java字节码通过解释执行，然后，这种方式不如JVM使用本地CPU直接执行本地代码快。为了提供新能，Oracle Hotspot虚拟机寻找热代码（这些代码执行频率很高），把他们编译为本地代码。本地代码被存储在非堆的code cache区内。通过这种方式，Hotspot VM通过最适当的方式，开销额外的编译时间，提高解释执行的效率。
+
+### Method Area
+方法区中保存每个类的下列信息：
+- Classloader Reference
+- Run Time Constant Pool
+  - Numeric constants
+  - Field references
+  - Method References
+  - Attributes
+- Field data
+  - Per field
+    - Name
+    - Type
+    - Modifiers
+    - Attributes
+- Method data
+  - Per method
+    - Name
+    - Return Type
+    - Parameter Types (in order)
+    - Modifiers
+    - Attributes
+- Method code
+  - Per method
+    - Bytecodes
+    - Operand stack size
+    - Local variable size
+    - Local variable table
+    - Exception table
+      - Per exception handler   
+        - Start point
+        - End point
+        - PC offset for handler code
+        - Constant pool index for exception class being caught
 
 ___
 [返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
