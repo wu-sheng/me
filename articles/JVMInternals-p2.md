@@ -1,6 +1,8 @@
 # 探秘JVM内部结构，第二部分
 
-[吴晟](https://github.com/wu-sheng)， [回到第一部分...](JVMInternals.md)
+[吴晟](https://github.com/wu-sheng)
+
+[回到第一部分...](JVMInternals.md)
 
 ### Class File Structure
 一个编译后的文件由以下部分构成：
