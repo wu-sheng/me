@@ -180,7 +180,7 @@ Java字节码通过解释执行，然后，这种方式不如JVM使用本地CPU�
 
 所有的线程共享同一个方法区，所以访问方法区的数据和处理动态链接必须保证线程安全。如果两个线程视图访问一个属性或者一个方法，而这个属性或方法还没有被加载，那么这两个线程必须暂停，等待加载完成。
 
-[续集阅读，Class File Structure](JVMInternals-p2.md)
+[继续阅读，Class File Structure...](JVMInternals-p2.md)
 
 
 ___
