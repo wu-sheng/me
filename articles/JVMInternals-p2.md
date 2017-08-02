@@ -190,8 +190,34 @@ JVM中有多个classloader承担不同的角色和职责，每一个classloader�
 HotSpot JVM 5.0中介绍一种叫做Class Data Sharing (CDS)的特性。在JVM的安装阶段，安装器会将一系列的JVM类，如`rt.jar`，加载到一个内存映射归档文件中。CDS通过加载这个归档文件，并在不同JVM实例中共享这个归档文件，提高JVM的启动速度和减少JVM的内存使用。
 
 ### Where Is The Method Area
+[JavaSE 7的JVM规范](http://www.amazon.co.uk/Virtual-Machine-Specification-Edition-Series/dp/0133260445)明确说明“方法区逻辑上是heap区的一部分，但是每个实现可以选择不去进行垃圾回收或压缩操作”。通过jconsole，我们可以看到不同的情况，Oracle VM中显示的方法区（包括代码缓存）都在非heap区。OpenJDK代码显示，代码缓存是VM中ObjectHeap区中的一个独立区域。
 
+### Classloader Reference
+所有被加载的类都有一个指向其classloader的指针。反过来，classloader也包含指向所有已加载类的指针。
 
+### Run Time Constant Pool
+JVM维护一个按照类型分布的constant pool常量池。运行时常量池的结构和符号表类似，尽管，他会包含更多的信息。运行时常量表中的信息在动态链接（查看Dynamic Linking章节）中使用。
+
+常量池中包含以下类型：
+- 数字子面值
+- 字符串子面值
+- 类引用
+- 字段应用
+- 方法引用
+
+以下面的代码为例：
+```java
+Object foo = new Object();
+```
+
+生成的字节码为：
+```
+ 0: 	new #2 		    // Class java/lang/Object
+ 1:	    dup
+ 2:	    invokespecial #3    // Method java/ lang/Object "<init>"( ) V
+```
+
+new opcode后面的#2，是指向常量池的索引。这个引用会指向池中的另外一个引用：使用UTF-8编码的字符串常量，类名`Class java/lang/Object`。这种符号链接也被用在查找java.lang.Object类时。new opcode创建一个类实例，并进行初始化。这个新建对象的引用被压到操作栈中。dup opcode在操作栈的栈顶压入一个栈顶引用的副本。`invokespecial`执行类的初始化操作，这个操作也包含一个指向constant pool的引用。初始化方法消耗（弹栈）操作栈顶部的引用，所谓初始化操作的参数。最后，保留一个引用，指向一个已经被创建，并初始化完成的对象。
 
 ___
 [返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
