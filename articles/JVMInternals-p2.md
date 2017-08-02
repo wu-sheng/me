@@ -145,6 +145,10 @@ Constant pool:
 构造函数用两个操作，将`this`压到操作栈中，然后父类的构造函数执行，在过程中使用`this`，将其弹出操作栈。
 <img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/bytecode_explanation_SimpleClass.png"/>
 
+**sayHello()**方法的执行更复杂一些，它需要使用constant pool，来解决逻辑引用指针到实际引用指针之间的映射关系（如Dynamic Linking章节所述）。第一个操作符`getstatic`是将System类的out静态方法，压入到操作栈中。接下去，`ldc`操作将"Hello"字符串压入到操作栈中。最后一个操作是`invokevirtual`执行System.out的println方法，将"Hello"作为一个参数弹出操作栈，并为这个方法(println方法)创建一个新的帧。
+<img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/bytecode_explanation_sayHello.png"/>
+
+
 
 
 
