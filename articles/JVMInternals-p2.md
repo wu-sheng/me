@@ -148,8 +148,23 @@ Constant pool:
 **sayHello()**方法的执行更复杂一些，它需要使用constant pool，来解决逻辑引用指针到实际引用指针之间的映射关系（如Dynamic Linking章节所述）。第一个操作符`getstatic`是将System类的out静态方法，压入到操作栈中。接下去，`ldc`操作将"Hello"字符串压入到操作栈中。最后一个操作是`invokevirtual`执行System.out的println方法，将"Hello"作为一个参数弹出操作栈，并为这个方法(println方法)创建一个新的帧。
 <img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/bytecode_explanation_sayHello.png"/>
 
+### Classloader
+JVM使用bootstrap classloader来加载启动类。这个类在`public static void main(String[])`方法执行前被链接和初始化。这个方法将按需依次驱动加载、链接、其他相关类和架构的初始化。
 
+**Loading**加载是一个通过类或者接口的名字寻找class文件，并读取到二进制数组中的过程。然后确认加载的内容包含正确的版本号。任何一个类或者接口的父类也会被加载。一旦这个过程完成，类或接口的二进制加载过程就完成了。
 
+**Linking**链接是对类和接口进行验证和类型准备，以及他们的直接父类和父级接口。链接操作有三步构成：verifying 验证，preparing 准备和resolving 解析（可选）。
+
+    - **Verifying**验证时一个确认类和接口的结构正确，符合Java和JVM的语义规范。如，检查一下内容
+      1. 正确的符号表
+      1. final的方法和类没有被复写和继承
+      1. 方法访问控制符符合要求
+      1. 方法的参数数量和类型正确
+      1. 字节码对栈的操作符合要求
+      1. 变量在读取前已经被初始化
+      1. 变量值设置正确
+  
+   
 
 
 ___
