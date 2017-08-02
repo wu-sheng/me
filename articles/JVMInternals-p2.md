@@ -1,6 +1,7 @@
 # 探秘JVM内部结构，第二部分
 
-[吴晟](https://github.com/wu-sheng)
+[吴晟](https://github.com/wu-sheng)，
+[sky-walking APM](https://github.com/wu-sheng/sky-walking)
 
 [回到第一部分...](JVMInternals.md)
 
@@ -122,3 +123,30 @@ Constant pool:
           0      9      0    this   Lorg/jvminternals/SimpleClass;
 }
 ```
+
+这个class文件包含三个主要主要部分，constant pool常量池，构造函数，sayHello方法。
+
+- Constant Pool - 和符号表提供类似信息，详情查看“constant_pool”章节。
+- Methods - 每一个方法区包含四个部分：
+  - 签名和访问控制符
+  - 字节码
+  - 行号表 - 用于调试器标识字节码对应的源代码行。例如，sayHello方法的字节码方法0，对应源代码第6行；字节码方法8，对应源代码第7行。
+  - 局部变量表 - 列出当前帧的所有局部变量，例子中的方法都只有this这个变量。
+  
+  下面列出了class文件中所有的字节码操作符
+  - **aload_0**：这个操作符是`aload_<n>`操作符组中的一个，这一系列操作都是将一个对象引用压入操作栈中。`<n>`代表当前局部变量数组的索引值，注意，只能取0,1,2,3四个值。对于非对象引用类型，还有一些类似的操作符，`iload_<n>`, `lload_<n>`, `fload_<n>` 和 `dload_<n>`，其中i代表操作int，l代表操作l，f代表操作float，d代表操作double。iload,lload,float,dload操作支持局部变量的索引大于3。这些操作符，都可以通过单次操作，通过指定的局部变量索引，加载变量值。
+  - **ldc**：这个操作符将constant pool中的常量值，压入操作栈
+  - **getstatic**：将constant pool中，静态列表中的值，压入操作栈
+  - **invokespecial**和**invokevirtual**：`invokedynamic`, `invokeinterface`, `invokespecial`, `invokestatic`, `invokevirtual`操作符组中的一个。`invokevirutal`是执行一个Object对象的方法，`invokespecial`是执行实例的初始化函数、私有函数、父类的函数。
+  - **return**：`ireturn`, `lreturn`, `freturn`, `dreturn`, `areturn` 和 `return`操作符组中的一个。每一个操作符对应一种返回值类型，i代表int，l代表long，f代表float，d代表double，a代表对象引用，`return`操作则表示返回**void**.
+
+作为一个典型的操作栈，局部变量、操作栈和运行时constant pool的交互操作如下。
+
+构造函数用两个操作，将`this`压到操作栈中，然后父类的构造函数执行，在过程中使用`this`，将其弹出操作栈。
+<img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/bytecode_explanation_SimpleClass.png"/>
+
+
+
+
+___
+[返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
