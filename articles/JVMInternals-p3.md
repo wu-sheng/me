@@ -1,4 +1,4 @@
-# 探秘JVM内部结构，第二部分
+# 探秘JVM内部结构，第三部分
 
 [吴晟](https://github.com/wu-sheng)，
 [sky-walking APM](https://github.com/wu-sheng/sky-walking)
@@ -65,7 +65,22 @@ Constant pool:
 - Fieldref，Methodref，InterfaceMethodref：用点分隔的两个值，每一个都指向常量池的一个实体。第一个指向一个Class实体，第二个指向一个NameAndType实体
 
 ### Exception Table
+异常表中，每一个异常存储一下信息：
+- 起始点
+- 结束点
+- 异常处理逻辑的PC偏移量
+- 常量池索引值，指向异常类
 
+如果一个定义类try-catch或者try-finally异常处理，则异常表会被创建。其中包含每一个异常处理块和finally块，以及他们对应处理哪种类型的异常以及处理代码的位置。
+
+当异常发生时，JVM在当前方法中寻找匹配的异常处理块，如果不存在，则强制弹出当前的栈帧，并在新的父级栈帧（调用发生异常的方法的父级方法）中重新抛出异常。如果当前线程中的所有栈帧都不包含处理块，则线程终止退出。同时，如果此线程是最后一个非守护线程（如：main线程），则会导致JVM的退出。
+
+Finally块匹配所有的异常，无论异常何时被抛出，都会执行。为了保证没有异常抛出时，Finally块依然会执行，程序会在return代码执行后，调到finally代码块。
+
+### Symbol Table
+
+
+### Interned Strings (String Table)
 
 ___
 [返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
