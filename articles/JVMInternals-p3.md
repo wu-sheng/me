@@ -78,7 +78,7 @@ Constant pool:
 Finally块匹配所有的异常，无论异常何时被抛出，都会执行。为了保证没有异常抛出时，Finally块依然会执行，程序会在return代码执行后，调到finally代码块。
 
 ### Symbol Table
-
+Hotspot JVM有存在在permanent区的一个符号表。符号表是一个Hashtable，建立引用指针和各种符号引用的映射关系（例如：`Hashtable<Symbol*, Symbol>`），同时包含一个指向类的运行时常量池的指针。
 
 ### Interned Strings (String Table)
 
