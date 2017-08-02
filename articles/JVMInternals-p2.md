@@ -219,5 +219,52 @@ Object foo = new Object();
 
 new opcode后面的#2，是指向常量池的索引。这个引用会指向池中的另外一个引用：使用UTF-8编码的字符串常量，类名`Class java/lang/Object`。这种符号链接也被用在查找java.lang.Object类时。new opcode创建一个类实例，并进行初始化。这个新建对象的引用被压到操作栈中。dup opcode在操作栈的栈顶压入一个栈顶引用的副本。`invokespecial`执行类的初始化操作，这个操作也包含一个指向constant pool的引用。初始化方法消耗（弹栈）操作栈顶部的引用，所谓初始化操作的参数。最后，保留一个引用，指向一个已经被创建，并初始化完成的对象。
 
+如果你编译下面这个类：
+```java
+package org.jvminternals;
+
+public class SimpleClass {
+
+    public void sayHello() {
+        System.out.println("Hello");
+    }
+}
+```
+
+会生成如下所示的常量池：
+```
+Constant pool:
+   #1 = Methodref          #6.#17         //  java/lang/Object."<init>":()V
+   #2 = Fieldref           #18.#19        //  java/lang/System.out:Ljava/io/PrintStream;
+   #3 = String             #20            //  "Hello"
+   #4 = Methodref          #21.#22        //  java/io/PrintStream.println:(Ljava/lang/String;)V
+   #5 = Class              #23            //  org/jvminternals/SimpleClass
+   #6 = Class              #24            //  java/lang/Object
+   #7 = Utf8               <init>
+   #8 = Utf8               ()V
+   #9 = Utf8               Code
+  #10 = Utf8               LineNumberTable
+  #11 = Utf8               LocalVariableTable
+  #12 = Utf8               this
+  #13 = Utf8               Lorg/jvminternals/SimpleClass;
+  #14 = Utf8               sayHello
+  #15 = Utf8               SourceFile
+  #16 = Utf8               SimpleClass.java
+  #17 = NameAndType        #7:#8          //  "<init>":()V
+  #18 = Class              #25            //  java/lang/System
+  #19 = NameAndType        #26:#27        //  out:Ljava/io/PrintStream;
+  #20 = Utf8               Hello
+  #21 = Class              #28            //  java/io/PrintStream
+  #22 = NameAndType        #29:#30        //  println:(Ljava/lang/String;)V
+  #23 = Utf8               org/jvminternals/SimpleClass
+  #24 = Utf8               java/lang/Object
+  #25 = Utf8               java/lang/System
+  #26 = Utf8               out
+  #27 = Utf8               Ljava/io/PrintStream;
+  #28 = Utf8               java/io/PrintStream
+  #29 = Utf8               println
+  #30 = Utf8               (Ljava/lang/String;)V
+```
+
 ___
 [返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
