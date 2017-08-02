@@ -186,6 +186,10 @@ JVM中有多个classloader承担不同的角色和职责，每一个classloader�
 
 <img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/class_loader_hierarchy.png"/>
 
+### Faster Class Loading
+HotSpot JVM 5.0中介绍一种叫做Class Data Sharing (CDS)的特性。在JVM的安装阶段，安装器会将一系列的JVM类，如`rt.jar`，加载到一个内存映射归档文件中。CDS通过加载这个归档文件，并在不同JVM实例中共享这个归档文件，提高JVM的启动速度和减少JVM的内存使用。
+
+### Where Is The Method Area
 
 
 
