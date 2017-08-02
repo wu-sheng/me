@@ -155,16 +155,38 @@ JVM使用bootstrap classloader来加载启动类。这个类在`public static vo
 
 **Linking**链接是对类和接口进行验证和类型准备，以及他们的直接父类和父级接口。链接操作有三步构成：verifying 验证，preparing 准备和resolving 解析（可选）。
 
-    - **Verifying**验证时一个确认类和接口的结构正确，符合Java和JVM的语义规范。如，检查一下内容
-      1. 正确的符号表
-      1. final的方法和类没有被复写和继承
-      1. 方法访问控制符符合要求
-      1. 方法的参数数量和类型正确
-      1. 字节码对栈的操作符合要求
-      1. 变量在读取前已经被初始化
-      1. 变量值设置正确
-  
-   
+- **Verifying**验证时一个确认类和接口的结构正确，符合Java和JVM的语义规范。如，检查一下内容
+  1. 正确的符号表
+  1. final的方法和类没有被复写和继承
+  1. 方法访问控制符符合要求
+  1. 方法的参数数量和类型正确
+  1. 字节码对栈的操作符合要求
+  1. 变量在读取前已经被初始化
+  1. 变量值设置正确
+
+在准备阶段运行这些检查，意味着不需要在运行时不必要做这些检查。链接过程中的验证操作会降低类的加载速度，然而，它可以避免字节码运行时的反复检查。
+
+- **Preparing**准备阶段包括分配静态存储和JVM所用到的存储结果所需的内存。如，分配方法表的内存。静态字段被初始化为默认值，但是，没有任何初始化块或代码在这个阶段执行。
+
+- **Resolving**解析式一个可选阶段，他包括通过加载依赖的类、接口来检查符号引用是否正确。如果不在此阶段解决这个问题，可以在字节码指令执行时进行检查。
+
+**Initialization**一个类或接口的初始化通过执行类和接口的`<clinit>`方法实现。
+
+<img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/Class_Loading_Linking_Initializing.png"/>
+
+JVM中有多个classloader承担不同的角色和职责，每一个classloader，除了**bootstrap classloader**都会代理父级classloader的能力，**bootstrap classloader**是顶级的classloader。
+
+- **Bootstrap Classloader**一般通过本地代码实现，因为这个classloader的加载时间甚至早于JVM初始化完成。bootstrap classloade负责加载基础的Java API库，如**rt.jat**。他只有加载能够在boot classpath下存在的类文件，这些类一般是被信任的，所以它会跳过很多的验证步骤。
+
+- **Extension Classloader**加载Java的扩展API库，如安全扩展函数。
+
+- **System Classloader**是默认的应用classloader，它负责从classpath中加载应用相关的类。
+
+- **User Defined Classloaders**用户定义classloader是一个可选的实现，用它来加载部分的应用类。一个用户定义的classloader在一些特殊场景下被使用，如重新加载类，或进行类隔离。如，Tomcat这种Web容器就会使用这种方式。
+
+<img src="http://blog.jamesdbloom.com/images_2013_11_17_17_56/class_loader_hierarchy.png"/>
+
+
 
 
 ___
