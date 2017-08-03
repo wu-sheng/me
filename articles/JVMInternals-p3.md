@@ -3,6 +3,8 @@
 [吴晟](https://github.com/wu-sheng)，
 [sky-walking APM](https://github.com/wu-sheng/sky-walking)
 
+[反馈文章问题](https://github.com/wu-sheng/me/issues)
+
 [回到第二部分...](JVMInternals-p2.md)
 
 ### Run Time Constant Pool 续
@@ -78,9 +80,19 @@ Constant pool:
 Finally块匹配所有的异常，无论异常何时被抛出，都会执行。为了保证没有异常抛出时，Finally块依然会执行，程序会在return代码执行后，调到finally代码块。
 
 ### Symbol Table
-Hotspot JVM有存在在permanent区的一个符号表。符号表是一个Hashtable，建立引用指针和各种符号引用的映射关系（例如：`Hashtable<Symbol*, Symbol>`），同时包含一个指向类的运行时常量池的指针。
+Hotspot JVM有存在在permanent区的一个符号表。符号表是一个Hashtable，建立引用指针和各种符号引用的映射关系（例如：`Hashtable<Symbol*, Symbol>`），同时包含为每一个类创建的，一个指向类的运行时常量池的指针。
+
+当从符号表中移除一个符号时，需要使用到引用计数器。例如，当一个类被卸载时，其运行时常量池中保存的所有符号的引用计数递减。当符号表中，一个符号的引用计数器降为0，符号表就知道，这个符号没有被任何人使用，那么这个符号可以从符号表中被移除。对于符号表和字符串表（见下节），所有条目都以规范化形式保存，以提高效率，并确保每个条目只存储一次。
 
 ### Interned Strings (String Table)
+Java语言规范要求，当一个字符串，即包含相同Unicode编码的字符的集合，完全相同时，必须指向同一个String实例。另外，String实例的`String.intern()`方法返回的引用，必须和该字符串值的引用保持一致。如，下面的表达式，始终是true：
+```java
+("j" + "v" + "m").intern() == "jvm"
+```
+
+Hotspot JVM中，字符串被保存在字符串表中，通过一个Hashtable建立对象引用和符号的关系（例如：Hashtable<oop, Symbol>）。这个表被保存在permanent区中。对于符号表（见上节）和字符串表，所有条目都以规范化形式保存，以提高效率，并确保每个条目只存储一次。
+
+当类被加载时，字符串常量通过编译器动态的加入到字符串表和符号表中。另外String实例可以通过显示的调用`String.intern()`被加入到字符串表中。当`String.intern()`被调用时，如果此字符串已经存在于字符串表中，则直接返回其引用，如果不存在，则将其加入到字符串表，并返回引用。
 
 ___
 [返回吴晟的首页](https://wu-sheng.github.io/me/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[英文版](http://blog.jamesdbloom.com/JVMInternals.html)
