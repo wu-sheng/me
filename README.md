@@ -25,7 +25,8 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Articles
-* ["Metrics, tracing, and logging" translation](https://wu-sheng.github.io/me/articles/metrics-tracing-and-logging)
+* [Metrics, tracing 和 logging 的关系](https://wu-sheng.github.io/me/articles/metrics-tracing-and-logging)
+* [探秘JVM内部结构](https://wu-sheng.github.io/me/articles/JVMInternals)
 
 ### Contributed GitHub Projects
 * [sky-walking](https://github.com/wu-sheng/sky-walking) 
