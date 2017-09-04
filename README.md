@@ -9,7 +9,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2017
-  - Speak at CNUTCon Shanghai 2017 about "Build the APM system for mircoservice architecture".
+  - Speak at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
   - Join Huawei.
   - Speak at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
   - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 3.0-2017, upgrade to an APM from a tracer.
