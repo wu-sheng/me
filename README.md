@@ -9,21 +9,21 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2017
-  - Contribute `wu-sheng/sky-walking` to [OpenSkywalking/skywalking](https://github.com/OpenSkywalking/skywalking), and make it more open to the community.
-  - Join [TraceContext](https://github.com/TraceContext) organization.
-  - Speak at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
-  - Join Huawei.
-  - Speak at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
-  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 3.0-2017, upgrade to an APM from a tracer.
+  - Contributed `wu-sheng/sky-walking` to [OpenSkywalking](https://github.com/OpenSkywalking), and make it more open to the community.
+  - Joined [TraceContext](https://github.com/TraceContext) organization.
+  - Spoken at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
+  - Joined Huawei.
+  - Spoken at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
+  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 3.0-2017, upgrade to an APM from a tracer.
   - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
-  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.
-  - Release OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
+  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.
+  - Released OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
 - 2016
-  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 2.0-2016.
-  - Popularize the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
-  - Join [OpenTracing](http://opentracing.io) organization.
+  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 2.0-2016.
+  - Popularized the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
+  - Joined [OpenTracing](http://opentracing.io) organization.
 - 2015
-  - Release [sky-walking](https://github.com/wu-sheng/sky-walking) 1.0.
+  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 1.0.
 
 _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
@@ -32,7 +32,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [探秘JVM内部结构](https://wu-sheng.github.io/me/articles/JVMInternals)
 
 ### Contributed GitHub Projects
-* [sky-walking](https://github.com/wu-sheng/sky-walking) 
+* [skywalking](https://github.com/OpenSkywalking/skywalking) 
 * [opentracing-specification](https://github.com/opentracing/specification)
 * [opentracing-specification-zh](https://github.com/opentracing-contrib/opentracing-specification-zh)
 * [opentracing.io](http://opentracing.io/)
@@ -42,8 +42,9 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [apache/incubator-rocketmq](https://github.com/apache/incubator-rocketmq)
 
 ### Open Source Oragnization Member
+* [TraceContext](https://github.com/TraceContext)
 * [opentracing](https://github.com/opentracing)
-* [sky-walking](https://github.com/sky-walking)
+* [OpenSkywalking](https://github.com/OpenSkywalking)
 * [Hprose](https://github.com/hprose)
 
 ### Career
