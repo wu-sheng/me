@@ -10,6 +10,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 
 - 2017
   - Contribute `wu-sheng/sky-walking` to [OpenSkywalking/skywalking](https://github.com/OpenSkywalking/skywalking), and make it more open to the community.
+  - Join [TraceContext](https://github.com/TraceContext) organization.
   - Speak at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
   - Join Huawei.
   - Speak at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
