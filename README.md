@@ -14,16 +14,15 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
   - Spoken at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
   - Joined Huawei.
   - Spoken at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
-  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 3.0-2017, upgrade to an APM from a tracer.
+  - Released `wu-sheng/sky-walking` 3.0-2017, upgrade to an APM from a tracer.
   - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
-  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 2.1-2017, first release version supports OpenTracing.
+  - Released `wu-sheng/sky-walking` 2.1-2017, first release version supports OpenTracing.
   - Released OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
 - 2016
-  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 2.0-2016.
   - Popularized the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
   - Joined [OpenTracing](http://opentracing.io) organization.
 - 2015
-  - Released [sky-walking](https://github.com/wu-sheng/sky-walking) 1.0.
+  - Released `wu-sheng/sky-walking` 1.0.
 
 _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
