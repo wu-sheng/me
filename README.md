@@ -10,7 +10,6 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 
 - 2017
   - SkyWalking accepted by Apache as an Incubator project.
-  - Contributed `wu-sheng/sky-walking` to [OpenSkywalking](https://github.com/OpenSkywalking), and make it more open to the community.
   - Joined [TraceContext](https://github.com/TraceContext) organization.
   - Spoken at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
   - Joined Huawei.
@@ -32,8 +31,9 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [探秘JVM内部结构](https://wu-sheng.github.io/me/articles/JVMInternals)
 
 ### Contributed GitHub Projects
-* [skywalking](https://github.com/apache/incubator-skywalking)
-* [opentracing-specification](https://github.com/opentracing/specification)
+* [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
+* [CNCF opentracing specification](https://github.com/opentracing/specification)
+* [W3C distributed-tracing sepecification](https://github.com/w3c/distributed-tracing)
 * [opentracing-specification-zh](https://github.com/opentracing-contrib/opentracing-specification-zh)
 * [opentracing.io](http://opentracing.io/)
 * [opentracing.io-zh-translation](https://github.com/wu-sheng/opentracing.io-translation/tree/translation/chn/201611)
