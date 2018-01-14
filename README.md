@@ -32,7 +32,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Contributed GitHub Projects
 * [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
-* [CNCF opentracing specification](https://github.com/opentracing/specification)
+* [CNCF OpenTracing specification](https://github.com/opentracing/specification)
 * [W3C distributed-tracing sepecification](https://github.com/w3c/distributed-tracing)
 * [opentracing-specification-zh](https://github.com/opentracing-contrib/opentracing-specification-zh)
 * [opentracing.io](http://opentracing.io/)
@@ -42,10 +42,11 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [apache/incubator-rocketmq](https://github.com/apache/incubator-rocketmq)
 
 ### Open Source Oragnization Member
-* [TraceContext](https://github.com/TraceContext)
-* [opentracing](https://github.com/opentracing)
-* [OpenSkywalking](https://github.com/OpenSkywalking)
-* [Hprose](https://github.com/hprose)
+* [Apache](http://www.apache.org/) SkyWalking PPMC, Committer
+* [CNCF OpenTracing](https://github.com/opentracing) member, OTIAB member
+* [TraceContext](https://github.com/TraceContext) member
+* [OpenSkywalking](https://github.com/OpenSkywalking) creator, PMC member
+* [Hprose](https://github.com/hprose) member
 
 ### Career
 * 2017-Now  2012 Labs, Huawei Technologies Co., Ltd, China
