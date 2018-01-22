@@ -1,6 +1,6 @@
 ## Welcome to [wusheng 吴晟](https://github.com/wu-sheng) GitHub Pages
 
-I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com).
+I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com), and Apache SkyWalking project creator and PPMC member, at the same time, as a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, to represent SkyWalking project.
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
@@ -8,6 +8,8 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 
 ### Open Source Experience
 
+- 2018
+  - Represent Apache SkyWalking to be a member of [OpenTracing Specification Council (OTSC)](https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc)
 - 2017
   - SkyWalking accepted by Apache as an Incubator project.
   - Joined [TraceContext](https://github.com/TraceContext) organization.
