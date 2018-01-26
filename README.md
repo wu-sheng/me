@@ -9,7 +9,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2018
-  - Represent Apache SkyWalking to be a member of [OpenTracing Specification Council (OTSC)](https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc)
+  - Represent Apache SkyWalking to be a member of [OpenTracing Specification Council (OTSC)](https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc)
 - 2017
   - SkyWalking accepted by Apache as an Incubator project.
   - Joined [TraceContext](https://github.com/TraceContext) organization.
