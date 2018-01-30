@@ -45,7 +45,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Open Source Oragnization Member
 * [Apache](http://www.apache.org/) SkyWalking PPMC, Committer
-* [CNCF OpenTracing](https://github.com/opentracing) member, OTIAB member
+* [CNCF OpenTracing](https://github.com/opentracing) member, OTSC & OTIAB member
 * [TraceContext](https://github.com/TraceContext) member
 * [OpenSkywalking](https://github.com/OpenSkywalking) creator, PMC member
 * [Hprose](https://github.com/hprose) member
