@@ -9,6 +9,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2018
+  - Won 2018-2019 Microsoft Most Valuable Professional (MVP) award in recognition of the exceptional technical community leadership. 
   - Represent Apache SkyWalking to be a member of [OpenTracing Specification Council (OTSC)](https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc)
 - 2017
   - SkyWalking accepted by Apache as an Incubator project.
