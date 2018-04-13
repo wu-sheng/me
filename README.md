@@ -4,7 +4,7 @@ First of all, I am an open source lover. Contribute for different open source pr
 
 Right now, I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com)
 
-In open source world, I am Apache SkyWalking project creator and PPMC member. At the same time, I am a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
+In open source world, I am Apache SkyWalking project creator, PPMC member and committer. At the same time, I am a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
