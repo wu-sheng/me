@@ -1,6 +1,6 @@
-## Welcome to [wusheng 吴晟](https://github.com/wu-sheng) GitHub Pages
+## Welcome to [Wu Sheng 吴晟](https://github.com/wu-sheng) GitHub Pages
 
-I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com), and Apache SkyWalking project creator and PPMC member, at the same time, as a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, to represent SkyWalking project.
+I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com), and Apache SkyWalking project creator and PPMC member. At the same time, I, as a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council,  represent SkyWalking project.
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
@@ -9,23 +9,26 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Open Source Experience
 
 - 2018
+  - Give speech @ Linux Foundation LC3 Asia about "Do auto and manual instrumentation in Apache SkyWalking APM"
+  - Give speech @ QCon Beijing 2018 about "The development of SkyWalking".
+  - Give speech @ tracing system implementors' workshop, Seattle US, about "Tracing in china + skywalking".
   - Win 2018-2019 Microsoft Most Valuable Professional (MVP) award in recognition of the exceptional technical community leadership. 
   - Represent Apache SkyWalking to be a member of [OpenTracing Specification Council (OTSC)](https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc)
 - 2017
   - SkyWalking accepted by Apache as an Incubator project.
-  - Joined [TraceContext](https://github.com/TraceContext) organization.
-  - Spoken at CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
-  - Joined Huawei.
-  - Spoken at QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
-  - Released `wu-sheng/sky-walking` 3.0-2017, upgrade to an APM from a tracer.
+  - Join [TraceContext](https://github.com/TraceContext) organization.
+  - Give speech @ CNUTCon Shanghai 2017 about "Build the APM for mircoservice architecture system".
+  - Join Huawei.
+  - Give speech @ QCon Beijing 2017 about "OpenTracing and sky-walking APM", which is the first Chinese OT speech.
+  - Release SkyWalking 3.0, upgrade to an APM from a tracer.
   - Be a mentor for Cloud Native Computing Foundation (CNCF), OpenTracing, in Google Summer of Code 2017.
-  - Released `wu-sheng/sky-walking` 2.1-2017, first release version supports OpenTracing.
-  - Released OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
+  - Release SkyWalking 2.1, first release version supports OpenTracing.
+  - Release OpenTracing specification v1.0 [zh-edition](https://github.com/opentracing-contrib/opentracing-specification-zh)
 - 2016
-  - Popularized the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
-  - Joined [OpenTracing](http://opentracing.io) organization.
+  - Popularize the OpenTracing Spec v1.0 in China open source team. Such as [motan](https://github.com/weibocom/motan), [hprose](https://github.com/hprose).
+  - Join [OpenTracing](http://opentracing.io) organization.
 - 2015
-  - Released `wu-sheng/sky-walking` 1.0.
+  - Release SkyWalking 1.0.
 
 _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
@@ -40,15 +43,17 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [opentracing-specification-zh](https://github.com/opentracing-contrib/opentracing-specification-zh)
 * [opentracing.io](http://opentracing.io/)
 * [opentracing.io-zh-translation](https://github.com/wu-sheng/opentracing.io-translation/tree/translation/chn/201611)
+* [ShardingJDBC](https://github.com/shardingjdbc/sharding-jdbc)
 * [motan](https://github.com/weibocom/motan)
 * [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
-* [apache/incubator-rocketmq](https://github.com/apache/incubator-rocketmq)
+* [apache/rocketmq](https://github.com/apache/rocketmq)
 
 ### Open Source Oragnization Member
 * [Apache](http://www.apache.org/) SkyWalking PPMC, Committer
 * [CNCF OpenTracing](https://github.com/opentracing) member, OTSC & OTIAB member
 * [TraceContext](https://github.com/TraceContext) member
 * [OpenSkywalking](https://github.com/OpenSkywalking) creator, PMC member
+* [ShardingJDBC](https://github.com/shardingjdbc) member, project PMC
 * [Hprose](https://github.com/hprose) member
 
 ### Career
