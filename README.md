@@ -15,6 +15,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 - 2018
   - Give speech @ Linux Foundation LC3 Asia about "Do auto and manual instrumentation in Apache SkyWalking APM"
   - Give speech @ QCon Beijing 2018 about "The development of SkyWalking".
+  - Release SkyWalking 5.0. At this moment, SkyWalking is an open source, Fully functional APM system.
   - Give speech @ tracing system implementors' workshop, Seattle US, about "Tracing in china + skywalking".
   - Win 2018-2019 Microsoft Most Valuable Professional (MVP) award in recognition of the exceptional technical community leadership. 
   - Represent Apache SkyWalking to be a member of [OpenTracing Specification Council (OTSC)](https://github.com/opentracing/specification/blob/master/project_organization.md#opentracing-specification-council-otsc)
