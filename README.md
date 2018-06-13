@@ -2,7 +2,7 @@
 
 First of all, I am an open source lover. Contribute for different open source projects in these years. And want to continue my contributions. ^_^
 
-Right now, I am a **Principle Engineer** in 2012 Labs, [Huawei Technologies Co., Ltd.](http://www.huawei.com)
+Right now, I am an Tetrate.io APM leader & BitMain technical expert.
 
 In open source world, I am Apache SkyWalking project creator, PPMC member and committer. At the same time, I am a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
 
@@ -62,7 +62,9 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 * [Hprose](https://github.com/hprose) member
 
 ### Career
-* 2017-Now  2012 Labs, Huawei Technologies Co., Ltd, China
+* 2018-Now  APM leader, Tetrate.io Inc, US.
+* 2018-Now  BitMain, Technical exporter, China.
+* 2017-2018 2012 Labs, Huawei Technologies Co., Ltd, China
 * 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com), China.
 * 2012-2016 Senior Software Architect, [AsiaInfo](http://www.asiainfo.com), China.
 * 2009-2012 Software Architect, [Cattsoft](http://www.cattsoft.com), China.
