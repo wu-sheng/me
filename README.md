@@ -2,7 +2,7 @@
 
 First of all, I am an open source lover. Contribute for different open source projects in these years. And want to continue my contributions. ^_^
 
-Right now, I am an Tetrate.io APM leader & BitMain technical expert.
+Right now, I am Tetrate.io APM leader & BitMain technical expert.
 
 In open source world, I am Apache SkyWalking project creator, PPMC member and committer. At the same time, I am a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
 
