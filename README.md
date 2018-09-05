@@ -13,6 +13,10 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Experiences
 
 - 2018
+  - Give speech @ GOPS 2018 Shanghai about "Tracing in Zipkin, Analysis in SkyWalking". (Sep. 15th)
+  - Join Zipkin org. Help Zipkin to join Apache Incubator.
+  - Host Apache SkyWalking & Zipkin Meetup.
+  - Give speeches at jd.com, qunar.com and daocloud.io about "SkyWalking's Apache way".
   - Give speech @ Linux Foundation LC3 Asia about "Do auto and manual instrumentation in Apache SkyWalking APM" (June 26)
   - Give speech @ QCon Beijing 2018 about "The development of SkyWalking". (March 20)
   - Release SkyWalking 5.0. At this moment, SkyWalking is an open source, fully functional APM system.
