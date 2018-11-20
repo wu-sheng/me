@@ -2,9 +2,11 @@
 
 First of all, I am an open source lover. Contribute for different open source projects in these years. And want to continue my contributions. ^_^
 
-Right now, I am Tetrate.io Founding Engineer & BitMain technical expert.
-
-In open source world, I am Apache SkyWalking project creator, PPMC member and committer. At the same time, I am a member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
+Right now, I am Tetrate.io Founding Engineer & BitMain technical expert. Running following Open Source projects
+1. Apache SkyWalking. As project creator, PPMC member and committer. 
+1. Apache ShardingSphere. As project co-founder, prototype author, PPMC member and committer.
+1. Apache Zipkin. As contributor, for design and code review.
+1. Member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
@@ -13,6 +15,10 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Experiences
 
 - 2018
+  - Give speech @ servicemesher.com meetup about "Observability and Istio telemetry". (Oct.)
+  - Release SkyWalking 6.0.0. SkyWalking becomes an observability platform, which accepts telemetry from Istio and supports language agents in Java, .Net and NodeJS.
+  - Assist ShardingShpere join Apache Incubator. Take responsibilites as PPMC and committer.
+  - Give sppech @ Kaiyuanshe COSCon 2018 about "SkyWalking From personal project to global". (Oct.)
   - Give speech @ GOPS 2018 Shanghai about "Tracing in Zipkin, Analysis in SkyWalking". (Sep. 15th)
   - Join Zipkin org. Help Zipkin to join Apache Incubator.
   - Host Apache SkyWalking & Zipkin Meetup.
@@ -47,12 +53,12 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Contributed GitHub Projects
 * [Apache SkyWalking](https://github.com/apache/incubator-skywalking)
+* [Apache ShardingSphere](https://github.com/shardingjdbc/sharding-sphere)
 * [CNCF OpenTracing specification](https://github.com/opentracing/specification)
 * [W3C distributed-tracing sepecification](https://github.com/w3c/distributed-tracing)
 * [opentracing-specification-zh](https://github.com/opentracing-contrib/opentracing-specification-zh)
 * [opentracing.io](http://opentracing.io/)
 * [opentracing.io-zh-translation](https://github.com/wu-sheng/opentracing.io-translation/tree/translation/chn/201611)
-* [ShardingJDBC](https://github.com/shardingjdbc/sharding-jdbc)
 * [motan](https://github.com/weibocom/motan)
 * [opentracing-contrib/java-hprose](https://github.com/opentracing-contrib/java-hprose)
 * [apache/rocketmq](https://github.com/apache/rocketmq)
