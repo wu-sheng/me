@@ -2,7 +2,7 @@
 
 First of all, I am an open source lover. Contribute for different open source projects in these years. And want to continue my contributions. ^_^
 
-Right now, I am Tetrate.io Founding Engineer & BitMain technical expert. Running following Open Source projects
+Right now, I am Tetrate.io Founding Engineer. Running following Open Source projects
 1. Apache SkyWalking. As project creator, PPMC member and committer. 
 1. Apache ShardingSphere. As project co-founder, prototype author, PPMC member and committer.
 1. Apache Zipkin. As contributor, for design and code review.
@@ -15,6 +15,7 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Experiences
 
 - 2018
+  - Apache Incubator PMC member.
   - Give speech @ servicemesher.com meetup about "Observability and Istio telemetry". (Oct.)
   - Release SkyWalking 6.0.0. SkyWalking becomes an observability platform, which accepts telemetry from Istio and supports language agents in Java, .Net and NodeJS.
   - Assist ShardingShpere join Apache Incubator. Take responsibilites as PPMC and committer.
