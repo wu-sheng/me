@@ -14,8 +14,9 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 
 ### Experiences
 
-- 2018
+- 2019
   - Be selected to be on the Program Committee for KubeCon + CloudNativeCon 2019
+- 2018
   - Be promoted as Apache Incubator PMC member.
   - Give speech @ servicemesher.com meetup about "Observability and Istio telemetry". (Oct.)
   - Release SkyWalking 6.0.0. SkyWalking becomes an observability platform, which accepts telemetry from Istio and supports language agents in Java, .Net and NodeJS.
