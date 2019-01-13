@@ -15,7 +15,8 @@ My work revolves around distributed systems, distributed tracer, APM, and runtim
 ### Experiences
 
 - 2018
-  - Apache Incubator PMC member.
+  - Be selected to be on the Program Committee for KubeCon + CloudNativeCon 2019
+  - Be promoted as Apache Incubator PMC member.
   - Give speech @ servicemesher.com meetup about "Observability and Istio telemetry". (Oct.)
   - Release SkyWalking 6.0.0. SkyWalking becomes an observability platform, which accepts telemetry from Istio and supports language agents in Java, .Net and NodeJS.
   - Assist ShardingShpere join Apache Incubator. Take responsibilites as PPMC and committer.
