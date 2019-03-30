@@ -76,7 +76,7 @@ _GitHub Profile Page: ( https://github.com/wu-sheng )_
 
 ### Career
 * 2018-Now  APM leader, Tetrate.io Inc, US.
-* 2018-Now  BitMain, Technical exporter, China.
+* 201c      BitMain, Technical consultant, China.
 * 2017-2018 Chief Engineer, 2012 Labs, Huawei Technologies Co., Ltd, China
 * 2016-2017 APM Architect, [OneAPM](http://www.oneapm.com), China.
 * 2012-2016 Senior Software Architect, [AsiaInfo](http://www.asiainfo.com), China.
