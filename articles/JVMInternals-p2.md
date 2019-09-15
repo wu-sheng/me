@@ -178,7 +178,7 @@ JVM使用bootstrap classloader来加载启动类。这个类在`public static vo
 
 JVM中有多个classloader承担不同的角色和职责，每一个classloader，除了**bootstrap classloader**都会代理父级classloader的能力，**bootstrap classloader**是顶级的classloader。
 
-- **Bootstrap Classloader**一般通过本地代码实现，因为这个classloader的加载时间甚至早于JVM初始化完成。bootstrap classloade负责加载基础的Java API库，如**rt.jat**。他只有加载能够在boot classpath下存在的类文件，这些类一般是被信任的，所以它会跳过很多的验证步骤。
+- **Bootstrap Classloader**一般通过本地代码实现，因为这个classloader的加载时间甚至早于JVM初始化完成。bootstrap classloade负责加载基础的Java API库，如**rt.jar**。他只有加载能够在boot classpath下存在的类文件，这些类一般是被信任的，所以它会跳过很多的验证步骤。
 
 - **Extension Classloader**加载Java的扩展API库，如安全扩展函数。
 
