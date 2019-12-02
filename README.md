@@ -5,16 +5,22 @@ First of all, I am an open source lover. Contribute for different open source pr
 Right now, I am Tetrate.io Founding Engineer. Running following Open Source projects
 1. Apache SkyWalking. As project creator, PPMC member and committer. 
 1. Apache ShardingSphere. As project co-founder, prototype author, PPMC member and committer.
-1. Apache Zipkin. As contributor, for design and code review.
+1. Apache ECharts, DolphinScheduler incubator mentor/Champion
+1. Zipkin. As contributor, for design and code review.
 1. Member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
+
+Due to the contributions across multiple open source community, be rewarded as Microsoft MVP, Alibaba Cloud MVP, Tencent Cloud TVP. 
 
 ## News About Me
 
 ### Experiences
 
 - 2019
+  - Publish the book, <The future of architecture, from micro-service to Cloud Native>.
+  - Present at DevOpsStage Kiev about SkyWalking and Service Mesh.
+  - Present at KubeCon Shanghai about SkyWalking and Envoy ALS solution.
   - Lead SkyWalking graduated as Apache Top Level Project. Be project V.P.
   - Be selected to be on the Program Committee for KubeCon + CloudNativeCon 2019
 - 2018
