@@ -1,13 +1,14 @@
 ## Welcome to [Wu Sheng 吴晟](https://github.com/wu-sheng) GitHub Pages
 
-First of all, I am an open source lover. Contribute for different open source projects in these years. And want to continue my contributions. ^_^
+First of all, I am an open source lover. Apache Member. Creator of several Apache Top-Level projects. Contribute for different open source projects in these years. And want to continue my contributions. ^_^
 
 Right now, I am Tetrate.io Founding Engineer. Running following Open Source projects
-1. Apache SkyWalking. As project creator, PPMC member and committer. 
-1. Apache ShardingSphere. As project co-founder, prototype author, PPMC member and committer.
+1. Apache SkyWalking. As project creator, PMC member and committer. 
+1. Apache ShardingSphere. As project co-founder, prototype author, PMC member and committer.
+1. Apache APISIX. PMC member.
 1. Apache ECharts, DolphinScheduler incubator mentor/Champion
 1. Zipkin. As contributor, for design and code review.
-1. Member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project.
+1. (ex)Member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, for representing SkyWalking project. {The project is not active anymore.}
 
 My work revolves around distributed systems, distributed tracer, APM, and runtime code generation/manipulation tech. My primary goal is to build an apm/tracer tool, with _High Efficient_, _Professional_, _for distributed-cluster or cloud_, and also **easy** to use. In particular, interested in how to build and diagnose large scale systems.
 
@@ -16,6 +17,7 @@ Due to the contributions across multiple open source community, be rewarded as M
 ## News About Me
 
 ### Experiences
+
 
 - 2019
   - Publish the book, <The future of architecture, from micro-service to Cloud Native>.
